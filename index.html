@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- in mobile set initial zoom level of page to 100%, set site size to equal device width not a larger canvas that is shrunk down-->
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Dr. Nut Responsive</title>
+    <!-- Link to grid and main css -->
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Link to  Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600; 700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="grid-con" id="main-header">
+        <nav class="box col-start-4 col-end-5 m-col-end-4 m-col-start-5 m-col-end-13
+        l-col-start-6 l-col-end-13" id="main-nav">nav</nav>
+        <div class="box col-start-1 col-end-3 m-col-start-2 m-col-end-5 l-start-end-2 l-col-end-4 xl-col-start-2 xl-col-end-3" id="main-logo">
+            Logo
+        </div>
+    </header>
+
+    <main>
+        <section class="grid-con" id="hero-con">
+            
+            <div class="box col-start-2 col-end-4 m-col-start-2 m-col-end-6" id="hero-txt-1">Text</div>
+            <div class="box col-span-full m-col-start-1 m-col-end-7" id="hero-txt-2">Text</div>
+
+            <div class="box col-span-full m-col-start-7 m-col-end-12 " id="hero-image">Hero Image</div>
+
+            <div class="box col-start-2 col-end-4" id="hero-btn">Button</div>
+        </section>
+
+        <section class="grid-con" id="ingredients">
+            <div class="box col-start-2 col-end-4
+            m-col-start-2 m-col-end-5
+            l-col-start-2 l-col-end-5" id="squirrel">Squirrel</div>
+            <div class="box col-start-1 col-end-5
+            m-col-start-5 m-col-end-11
+            l-col-start-6 l-col-end-11" id="squirrel-txt">Dialog Box Text</div>
+
+            <div class="box col-span-2 m-col-span-3 ">Vector</div>
+            <div class="box col-span-2 m-col-span-3 ">Vector</div>
+            <div class="box col-span-2 m-col-span-3 ">Vector</div>
+            <div class="box col-span-2 m-col-span-3 ">Vector</div>
+        </section>
+
+        <section class="grid-con" id="recycle">
+            <div class="box col-start-1 col-end-5
+            m-col-start-2 m-col-end-12
+            l-col-start-1 l-col-end-7" id="recycle-can">Recycle Can Image</div>
+
+            <div class="box col-start-2 col-end-4 m-col-start-4 m-col-end-10 l-col-start-7 l-col-end-12">Text</div>
+            <div class="box col-span-full l-col-start-7 l-col-end-12">Text</div>
+        </section>
+
+        <section class="grid-con" id="video">
+            <div class="box col-span-full
+            l-col-start-1 l-col-end-13" id="video">Video</div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- col-span-full -->
+        <section class=" grid-con">
+            <div class="box col-span-full">Footer</div>
+        </section>
+    </footer>
+
+    <!-- Link to JS file at bottom, just before closing body tag -->
+    <script src="js/main.js"></script>
+</body>
+</html>

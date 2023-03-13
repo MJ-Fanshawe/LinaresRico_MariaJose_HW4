@@ -1,0 +1,68 @@
+
+
+@media screen and (min-width: 320px) {
+    #main-logo {
+        order: -1;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    #hero-txt-2 {
+        height: 50px;
+        margin-top: 80px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #squirrel {
+   order: -1;
+    }
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+#hero-con {
+    background-color: #fff;
+}
+
+#hero-con {
+    background-color: #FDBA43;
+}
+
+#hero-image {
+    height: 273px;
+}
+
+#ingredients {
+    background-color: #E96329;
+}
+
+section {
+    padding: 20px;
+}
+
+#squirrel-txt {
+    padding: 50px;
+}
+
+#recycle {
+    background-color: #859683;
+}
+
+#recycle-can {
+    padding: 40px;
+}
+
+#video {
+    padding: 50px;
+}
+
+footer {
+    background-color: #E96329;
+}
